@@ -12,12 +12,9 @@ The project uses the Spam Collection Dataset, which consists of 5,572 SMS labele
 
 - Data preprocessing and text cleaning
 - Feature extraction using TF-IDF (Term Frequency-Inverse Document Frequency)
-- Implementation and comparison of multiple machine learning models:
-  - Logistic Regression
-  - Naive Bayes
-  - Support Vector Machine (SVM)
+- Implementation of a machine learning model:
   - Random Forest
-- Model performance evaluation and comparison
+- Model performance evaluation
 
 ## Methodology
 
@@ -28,10 +25,6 @@ The project uses the Spam Collection Dataset, which consists of 5,572 SMS labele
 
 2. **Feature Extraction**:
    - Used TF-IDF vectorization to convert text data into numerical features
-
-3. **Model Development and Training**:
-   - Implemented Logistic Regression, Naive Bayes, SVM, and Random Forest classifiers
-   - Trained each model on the vectorized training data
 
 4. **Model Evaluation**:
    - Evaluated models using accuracy, precision, recall, and F1-score
@@ -47,13 +40,7 @@ The project uses the Spam Collection Dataset, which consists of 5,572 SMS labele
 - Jupyter Notebook for development and presentation
 
 ## Results
-
-- Achieved high accuracy in spam detection across multiple models
-- Compared performance of different classifiers:
-  - Logistic Regression: 96.49% accuracy
-  - Naive Bayes: 96.85% accuracy
-  - SVM: 98.38% accuracy
-  - Random Forest: 97.66% accuracy
+  - Random Forest: 98% accuracy
 
 ## Future Improvements
 
